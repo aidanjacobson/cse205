@@ -5,11 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "java",
-            "name": "Launch Current File",
+            "type": "node",
             "request": "launch",
-            "mainClass": "${file}",
-            "console": "internalConsole"
+            "name": "Run Tests",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\test.js",
+            "args": [
+                "${fileWorkspaceFolder}"
+            ]
         }
     ]
 }

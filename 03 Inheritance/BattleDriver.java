@@ -1,8 +1,8 @@
 import java.util.Random;
 public class BattleDriver {
     public static void main(String[] args) {
-        Character monster = new Monster("Capitalism");
-        Character hero = new Hero("Taxing the rich");
+        Character monster = new Monster("Insert bad guy name here");
+        Character hero = new Hero("Insert good guy name here");
         boolean player1Turn = true;
         Random r = new Random();
         System.out.println("PREPARE FOR BATTLE!!!!");
